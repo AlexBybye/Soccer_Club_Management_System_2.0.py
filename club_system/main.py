@@ -1,9 +1,9 @@
 # 程序主入口
 from datetime import datetime
-from models.club import Club
-from models.emplyee import Employee, Player, Role
-from services.storage import ClubStorage
-from utils.security import generate_secure_key, hash_key, verify_key
+from club_system.models.club import Club
+from club_system.models.employee import Employee, Player, Role
+from club_system.services.storage import ClubStorage
+from club_system.utils.security import generate_secure_key, hash_key, verify_key
 
 
 class ClubSystem:

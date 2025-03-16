@@ -1,8 +1,7 @@
 from datetime import datetime
 from typing import Dict, Any
-from models.club import Club
-
-
+from club_system.models.club import Club
+from club_system.models.employee import Player
 class ClubReporter:
     @staticmethod
     def generate_overview(club: Club) -> str:

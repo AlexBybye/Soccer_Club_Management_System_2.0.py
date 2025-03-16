@@ -1,6 +1,6 @@
-from models.user import User, UserRole
-from services.storage import UserStorage
-from utils.security import (
+from club_system.models.user import User, UserRole
+from club_system.services.storage import UserStorage
+from club_system.utils.security import (
     hash_password,
     verify_password,
     generate_password_reset_token
