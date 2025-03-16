@@ -1,7 +1,6 @@
-from services.finance import FinanceSystem
+from club_system.services.finance import FinanceSystem
 from datetime import datetime
-
-
+from club_system.models.club import Club
 class SalaryReporter:
     @staticmethod
     def generate_report(club) -> str:

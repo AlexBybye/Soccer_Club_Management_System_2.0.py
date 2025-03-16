@@ -34,7 +34,7 @@ class User:
         }
 
     @classmethod
-    def from_dict(cls, data: dict) -> User:
+    def from_dict(cls, data: dict) -> 'User':
         """从字典创建实例（含Optional字段处理）"""
         return cls(
             username=data["username"],

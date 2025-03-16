@@ -1,7 +1,6 @@
-from models.club import Club
+from club_system.models.club import Club
+from club_system.models.employee import Role
 from typing import Dict, List
-
-
 class FinanceSystem:
     @staticmethod
     def calculate_financials(club: Club) -> Dict:

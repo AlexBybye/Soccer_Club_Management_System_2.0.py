@@ -1,6 +1,6 @@
 import random
-from models.employee import Player
-
+from typing import List, Dict
+from club_system.models.employee import Player
 
 class TrainingSystem:
     TRAINING_PROGRAMS = {

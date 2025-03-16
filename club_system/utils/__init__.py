@@ -8,7 +8,7 @@ from .security import (
     hash_key,
     verify_key
 )
-from .validators import InputValidator
+from .validators import UserValidator
 
 __all__ = [
     'generate_secure_key',
@@ -16,5 +16,5 @@ __all__ = [
     'verify_password',
     'hash_key',
     'verify_key',
-    'InputValidator'
+    'UserValidator'
 ]
