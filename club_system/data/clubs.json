@@ -13,6 +13,34 @@
           "role": "director",
           "join_date": "2025-03-16",
           "contract_end": null
+        },
+        {
+          "eid": "101",
+          "name": "\u4efb\u661f\u5b87",
+          "salary": 100000.0,
+          "role": "staff",
+          "join_date": "2025-03-17",
+          "contract_end": null
+        },
+        {
+          "eid": "002",
+          "name": "\u5434\u78ca",
+          "salary": 1500000.0,
+          "role": "coach",
+          "join_date": "2025-03-17",
+          "contract_end": null
+        },
+        {
+          "eid": "011",
+          "name": "\u738b\u6cd3\u5609",
+          "salary": 100000.0,
+          "role": "player",
+          "join_date": "2025-03-17",
+          "contract_end": null,
+          "ability": 70,
+          "specialty": "\u6253\u98de\u673a",
+          "injured": false,
+          "position": null
         }
       ]
     }
