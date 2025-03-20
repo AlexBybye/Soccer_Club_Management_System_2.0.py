@@ -53,7 +53,7 @@ class ClubSystem:
             # 添加初始董事账户
             club.add_employee(Employee(
                 eid="DIR-001",
-                name="系统管理员",
+                name="董事长",
                 salary=0,
                 role=Role.DIRECTOR,
                 join_date=datetime.now().strftime("%Y-%m-%d")
